@@ -6,8 +6,8 @@ if (!$link) {
 else{
    echo 'Connection OK';
    if(mysqli_select_db($link, 'przychodnia')){
-       echo '<br>wyba�em baze<br>';
-       echo"<br>";
+       echo '<br>wybrałem baze<br>';
+       echo "<br>";
    }
  else {
      echo 'nie udalo sie';
