@@ -6,13 +6,14 @@ if (!$link) {
 else{
    echo 'Connection OK';
    if(mysqli_select_db($link, 'przychodnia')){
-       echo '<br>wyba³em baze<br>';
+       echo '<br>wybaï¿½em baze<br>';
+       echo"<br>";
    }
  else {
      echo 'nie udalo sie';
    }
      $query="INSERT INTO `pracownicy`(`imie`, `nazwisko`, `tytul`) VALUES ('Janusz','Szyszko','lek.')";
-     $query="INSERT INTO pracownicy(imie, nazwisko, tytul) VALUES ('Janusz','Zagórski','lek.')";
+     $query="INSERT INTO pracownicy(imie, nazwisko, tytul) VALUES ('Janusz','Zagï¿½rski','lek.')";
     if($result=mysqli_query($link, $query))
    {echo "wykonany insert";}
    else echo "insert si enie pwiodl";
