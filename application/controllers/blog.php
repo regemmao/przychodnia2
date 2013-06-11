@@ -7,9 +7,10 @@ class Blog extends CI_Controller {
 		$this->load->model('user_model','',TRUE);
                 $this->load->view('header');
                 $this->load->view('navbar');
+                echo "<br><br><br> Niedźwiedź ";
                 $resultat = $this->user_model->get_pracownik($id);
                 $cos=$resultat['imie'];
-                echo  "<br><br><br>$cos<br><br>";
+                echo  "$cos<br><br>";
 //                foreach ($result as $key) {
 //                    $imie=$key['imie'];
 //                    $nazwisko=$key['nazwisko'];
