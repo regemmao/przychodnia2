@@ -1,0 +1,18 @@
+/* 
+    Document   : main
+    Created on : 2013-06-07, 08:35:45
+    Author     : Renya_2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.rys {
+    min-height: 690px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/img/lekarz.jpg');
+    background-image: url('lekarz.jpg');
+  
+    
+}

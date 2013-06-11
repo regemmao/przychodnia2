@@ -39,7 +39,11 @@
 */
 
 $route['default_controller'] = "welcome";
+$route['default_controller'] = "blog";
+
 $route['404_override'] = '';
+$route['comments/(:any)'] = "blog/comments";
+$route['sandals']="blog/shoes/sandals/123";
 
 
 /* End of file routes.php */
